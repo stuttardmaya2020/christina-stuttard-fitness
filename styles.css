@@ -31,8 +31,6 @@ a{color:inherit}
 :focus-visible{outline:3px solid var(--ink);outline-offset:3px}
 .site-head :focus-visible,.hero :focus-visible,.why :focus-visible,.watch :focus-visible,.site-foot :focus-visible{outline-color:var(--sun)}
 main:focus{outline:0}
-.skip{position:absolute;left:var(--gutter);top:.5rem;z-index:10;transform:translateY(-300%)}
-.skip:focus{transform:none;outline-color:var(--paper)}
 .wrap{width:min(1200px,100% - 2*var(--gutter));margin-inline:auto}
 
 /* buttons */
@@ -211,7 +209,7 @@ main:focus{outline:0}
 .copy{font:500 .75rem/1 var(--display);letter-spacing:.12em;text-transform:uppercase;min-height:2.75rem;padding:0 1.2em;border:1.5px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer}
 .copy:hover{background:var(--ink);color:var(--sun)}
 .copy-status{font:400 .85rem/1.4 var(--body);color:var(--ink-soft)}
-@media (max-width:760px){.hello-grid{grid-template-columns:1fr}.hello-img{aspect-ratio:4/3;object-position:60% 40%}}
+@media (max-width:760px){.hello-grid{grid-template-columns:1fr}.hello-img{max-width:26rem}}
 
 /* footer */
 .site-foot{background:var(--ink);color:var(--on-ink-soft);padding-block:3.5rem 2rem}
