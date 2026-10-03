@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-03T18:52:57.275Z",
+        "reason": "Claude: verified false positive. Every flagged container is padded via clamp(), var() or the .wrap gutter (min 16px), confirmed in source and in rendered captures at 320-1280px; the static scan does not resolve these."
+      }
+    ]
+  }
+}

@@ -22,5 +22,5 @@ then visit http://localhost:8000.
 
 ## Things to change most often
 
-- **Class times**: `startsET` at the top of `main.js` (US Eastern times). The UK and Spain times, and the EST/GMT/CET labels, update automatically, including when the clocks change.
+- **Class times**: the list under `id="sched-body"` in `index.html` (US Eastern times, written like `6:30 am`). Change both the start and the "to" time on each line. The UK, Spain and "Your time" times, and the EST/GMT/CET labels, update automatically, including when the clocks change.
 - **Prices**: the `.price` block in `index.html`.
